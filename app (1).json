@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BudgetApp",
-    "slug": "budget-app",
+    "name": "MonBudget+",
+    "slug": "monbudgetplus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,17 +17,17 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "package": "com.kpakpofortune.monbudgetplus",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "4774a9f7-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      }
     }
   }
 }
