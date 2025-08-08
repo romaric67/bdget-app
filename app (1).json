@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Budget Manager FCFA",
-    "slug": "budget-manager-fcfa",
+    "name": "MonBudget+",
+    "slug": "budget-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,35 +9,35 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#2c3e50"
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.romaric67.budgetmanager"
+      "bundleIdentifier": "com.kpakpofortune.monbudgetplus"
     },
     "android": {
-      "package": "com.romaric67.budgetmanager",
+      "package": "com.kpakpofortune.monbudgetplus",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#2c3e50"
+        "backgroundColor": "#ffffff"
       },
-      "permissions": [
-        "VIBRATE",
-        "WRITE_EXTERNAL_STORAGE",
-        "READ_EXTERNAL_STORAGE"
-      ]
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "your-expo-project-id"
+        "projectId": "f5a0c61d-6f41-4403-9721-b21d9fa2fb02"
       }
     }
   }
 }
+
